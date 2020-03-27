@@ -1,6 +1,6 @@
 //var UrlWCF = "http://localhost:8732/Design_Time_Addresses/HNTService/Service1/";
 //var UrlWCF = "http://192.168.2.100:70/WS/HNTService.Service1.svc/";
-var UrlWCF = "http://serverpjsap.ddns.net:100/wcf/WcfServiceLibrary1.Json.svc/";
+var UrlWCF = "http://serverpjsap.ddns.net:60/Wcf2/WcfServiceLibrary1.Json.svc/";
 var ms = '';
 var variableN = '';
 var options = {

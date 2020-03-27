@@ -78,12 +78,12 @@ $(document).bind("pageinit", function () {
         if(id == "TELMEX"){
           $("#TELMEX").addClass('operando');
           urlDOM = "http://serverpjsap.ddns.net:80/"; 
-          urlWcf = "http://serverpjsap.ddns.net:100/wcf/WcfServiceLibrary1.Json.svc/"; 
+            urlWcf = "http://serverpjsap.ddns.net:60/Wcf2/WcfServiceLibrary1.Json.svc/"; 
         }
         if(id== "AXTEL"){
           $("#AXTEL").addClass('operando');
           urlDOM = "http://189.203.180.22:80/";
-          urlWcf = "http://189.203.180.22:100/wcf/WcfServiceLibrary1.Json.svc/"; 
+            urlWcf = "http://189.203.180.22:60/Wcf2/WcfServiceLibrary1.Json.svc/"; 
         }
         window.localStorage.removeItem("IPServidor");
         window.localStorage.setItem("IPServidor", id);

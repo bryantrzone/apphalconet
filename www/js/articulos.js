@@ -1,4 +1,4 @@
-var urlWcf = "http://187.157.115.98:100/wcf/WcfServiceLibrary1.Json.svc/"; var Publi = 1;
+var urlWcf = "http://187.157.115.98:60/Wcf2/WcfServiceLibrary1.Json.svc/"; var Publi = 1;
 $( document ).ready(function() {
 	$("#btnLimpArt").bind("click", function (event, ui) {
         $("#txtItemCode").val('');
