@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.HALCONET" version="1.0.17" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CallNumber">
+        <param name="android-package" value="mx.ferreyra.callnumber.CFCallNumber" />
+    </feature>
+    <feature name="PhoneDialer">
+        <param name="android-package" value="com.teamnemitoff.phonedialer.PhoneDialer" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="EmailComposer">
+        <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
+    </feature>
+    <name>HalcoNet</name>
+    <description>
+        Aplicación HalcoNet
+    </description>
+    <author email="contacto@tractozone.com.mx" href="http://www.tractozone.com.mx">
+            Grupo TractoZone
+        </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon platform="android" qualifier="ldpi" src="res/icons/android/ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="res/icons/android/mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="res/icons/android/hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="res/icons/android/xhdpi.png" />
+    <icon platform="android" qualifier="xxhdpi" src="res/icons/android/xxhdpi.png" />
+    <icon platform="android" qualifier="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

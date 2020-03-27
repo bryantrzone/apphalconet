@@ -1,0 +1,6 @@
+cordova build  android --release
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore halconet-key.keystore android-release-unsigned.apk HALCONET
+C:\Users\PEMIJUMO\AppData\Local\Android\Sdk\build-tools\27.0.3\zipalign -v 4 android-release-unsigned.apk halconet.apk
+
+https://cordova.apache.org/docs/es/latest/guide/cli/
+http://www.automationtestinghub.com/setup-android-environment-variables/

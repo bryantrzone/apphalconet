@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "call-number": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "com.teamnemitoff.phonedialer": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.HALCONET"
+    },
+    "cordova-plugin-email-composer": {
+      "PACKAGE_NAME": "com.HALCONET"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.HALCONET"
+    }
+  }
+}

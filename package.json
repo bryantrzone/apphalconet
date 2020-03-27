@@ -1,0 +1,19 @@
+{
+    "name": "com.halconet",
+    "version": "1.0.12",
+    "displayName": "HalcoNet",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-email-composer": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-email-composer": "git+https://github.com/katzer/cordova-plugin-email-composer.git",
+        "cordova-plugin-whitelist": "1"
+    }
+}

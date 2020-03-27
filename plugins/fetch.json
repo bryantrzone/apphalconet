@@ -1,0 +1,90 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-whitelist",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.teamnemitoff.phonedialer": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/peutetre/PhoneGap-PhoneDialer",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-device",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-dialogs": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-dialogs",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-vibration": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-vibration",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-geolocation",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/apache/cordova-plugin-network-information",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "call-number": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-email-composer": {
+    "source": {
+      "type": "registry",
+      "id": "git+https://github.com/katzer/cordova-plugin-email-composer.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
